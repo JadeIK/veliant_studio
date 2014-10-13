@@ -123,21 +123,23 @@ form.signup input.form-control:focus {
 
 #wrapper {
 	text-align: center;
-	padding: 50px 0;
-	background: url(../img/main-bg.jpg) no-repeat center top;
-	background-attachment: relative;
-	background-position: center center;
+	padding: 100px 0;
+	background-image:  url(../img/unnamed.png);
+  background-position:center top;
+  background-repeat: no-repeat; 
+
+
 	min-height: 650px;
 	width: 100%;	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
+    -webkit-background-size: 10%;
+    -moz-background-size: 10%;
+    -o-background-size: 10%;
+    background-size: 10%;
+/*
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 
@@ -171,3 +173,10 @@ p.copyright {
 	color: #fff;
 	text-align: center;
 }	
+
+#wrapper .row {
+  border: 10px solid rgba(29, 30, 100, 0.2);
+  background-color: rgba(5, 5 ,5, .3);
+  border-radius: 25px;
+  margin: 50px;
+}

@@ -9,3 +9,24 @@ body {
 	background-color: #507b9e;
 	height: auto;
 }
+
+#wrapper {
+	text-align: center;
+	padding: 50px 0;
+	background-image: url(../img/b11.png), url(../img/unnamed.png);
+  background-position: top top, right center;
+  background-repeat: repeat, no-repeat; 
+
+
+	min-height: 650px;
+	width: 100%;	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
